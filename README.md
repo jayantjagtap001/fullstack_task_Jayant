@@ -7,7 +7,6 @@ A real-time task management app using **React**, **Node.js**, **Redis**, **Mongo
 - Real-time task syncing using WebSockets (Socket.IO)
 - Task persistence with MongoDB
 - Redis caching layer for fast in-memory access
-- Add/Delete notes with timestamps
 - Live UI updates without refreshing the page
 
 ---
