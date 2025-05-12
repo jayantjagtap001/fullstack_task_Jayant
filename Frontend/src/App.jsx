@@ -66,12 +66,12 @@ function App() {
         {tasks.map((task) => (
           <div key={task._id} className="note-item">
             <div className="note-text">{task.text}</div>
-            <small className="note-time">
+            {/* <small className="note-time">
               {new Date(task.createdAt).toLocaleString()}
-            </small>
-            <button className="delete-btn" onClick={() => deleteTask(task._id)}>
+            </small> */}
+            {/* <button className="delete-btn" onClick={() => deleteTask(task._id)}>
               Delete
-            </button>
+            </button> */}
           </div>
         ))}
       </div>
